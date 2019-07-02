@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+	<head>
+		<title> Hakuna Matata </title>
+		<link rel = 'stylesheet' href = 'css/App.css'/>
+		<link rel = 'stylesheet' href = 'css/Reset.css'/>
+		<script src="js/dataRequest.js"></script>
+	</head>
+	<body>
+		<div class = "App_Container">
+			<div class = "Header_Container">
+				<div class = "Header_Top_Section">
+					<div class = "Header_Title">
+						<p class = "Title_Text"> Interactive Quiz Game </p>
+					</div>
+					<div class = "Header_Timer">
+						<p  id = 'timer' class = "Timer_Text"> 00:00.000 </p>
+					</div>
+				</div>
+				<div class = "Header_Middle_Section">
+					<button id = "toggle"> Start </button>
+					<button id = "reset"> Reset </button>
+				</div>
+				<div class = "Header_Bottom_Section"></div>
+			</div>
+			<div class = "Content_Container">
+				<div class = "Term_Container">
+					<div id = "term1" class = "Term_Card" draggable = "true" ></div>
+					<div id = "term2" class = "Term_Card" draggable = "true" ></div>
+					<div id = "term3" class = "Term_Card" draggable = "true" ></div>
+					<div id = "term4" class = "Term_Card" draggable = "true" ></div>
+					<div id = "term5" class = "Term_Card" draggable = "true" ></div>                    
+				</div>
+				<div class = "Definition_Container">
+					<div class = "Definition_Card" >
+						<div class = "Term_Slot"></div>
+						<div class = "Definition_Box"></div>
+					</div>
+					<div class = "Definition_Card">
+						<div class = "Term_Slot"></div>
+						<div class = "Definition_Box"></div>
+					</div>
+					<div class = "Definition_Card">
+						<div class = "Term_Slot"></div>
+						<div class = "Definition_Box"></div>
+					</div>
+					<div class = "Definition_Card">
+						<div class = "Term_Slot"></div>
+						<div class = "Definition_Box"></div>
+					</div>
+					<div class = "Definition_Card">
+						<div class = "Term_Slot"></div>
+						<div class = "Definition_Box"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- stopwatch.js file connected to the index.html file -->
+		<script src = "js/stopwatch.js"></script>
+		<!-- main.js file connected to the index.html file -->
+		<script src = "js/main.js"></script>
+		<!-- dragDrop.js file connected to the index.html file -->
+		<script src = "js/dragDrop.js"></script>
+	</body>
+</html>
+<!-- <div id="box3" ondrop="dragDrop(event)" ondragover="allowDrop(event)"></div> -->

@@ -1,0 +1,103 @@
+{
+	"data": [{
+        "id": 1,
+        "term": "Bayou",
+        "definition": "A slow moving stream."
+	}, {
+        "id": 2,
+        "term": "Beaucoup",
+        "definition": "French for a lot"
+	}, {
+        "id": 3,
+        "term": "Beignet",
+        "definition": "A fried square French donut coated with powdered sugar."
+    }, {
+        "id": 4,
+        "term": "Bon ami",
+        "definition": "Good friend."
+    }, {
+        "id": 5,
+        "term": "Boolye",
+        "definition": "Bright light used to blind prey while hunting."
+    }, {
+        "id": 6,
+        "term": "Crawfish",
+        "defintion": "Mudbug – Crustacean served boiled or fried."
+    }, {
+        "id": 7,
+        "term": "Étouffée",
+        "definiton": "Smothered seafood, Cajun stew."
+    }, {
+        "id": 8,
+        "term": "Gumbo",
+        "definition": "African word for okra, which is used as a thickening agent in a dark stew of seafood or meat, served over rice."
+    }, {
+        "id": 9,
+        "term": "Jambalaya",
+        "definiton": "Well-seasoned mixture of rice, meat and vegetables cooked in one pot."
+    }, {
+        "id": 10,
+        "term": "Parish",
+        "defintion": "A political division resembling counties in other states. Louisiana is the only state with parishes (dating back to Napoleon and a strong Catholic influence)."
+    }, {
+        "id": 11,
+        "term": "Pirogue ",
+        "defintion": "A small, canoe-like boat."
+    }, {
+        "id": 12,
+        "term": "Po po",
+        "defintion": "The police."
+    }, {
+        "id": 13,
+        "term": "Roux",
+        "defintion": "A classic Cajun concoction made by blending oil and flour and cooking them together. Used in Cajun Gumbo, stews, fricassees, etc."
+    }, {
+        "id": 14,
+        "term": "Skiff",
+        "defintion": "Small boat for crabbing or shrimping."
+    }, {
+        "id": 15,
+        "term": "Cocodril",
+        "defintion": "Alligator"
+    }, {
+        "id": 16,
+        "term": "Tasso",
+        "defintion": "Strips of spiced pork or beef which are smoked like jerky and used to flavor many dishes; a sort of Cajun pepperoni."
+    }, {
+        "id": 17,
+        "term": "Sauce Piquante",
+        "defintion": "means spicy sauce; is a spicy stew. "
+    }, {
+        "id": 18,
+        "term": "Praline",
+        "defintion": "The sweetest of sweets, this is a candy patty made of sugar, cream and pecans."
+    }, {
+        "id": 19,
+        "term": "Hush Puppies",
+        "defintion": "A cornbread-type of mixture, formed into balls and fried until crispy on the outside."
+    }, {
+        "id": 20,
+        "term": "Creole",
+        "defintion": "People of mixed French, Spanish, Indian or Negro blood."
+    }, {
+        "id": 21,
+        "term": "Maw Maw",
+        "defintion": "Grandma"
+    }, {
+        "id": 22,
+        "term": "Merci Beaucoup",
+        "defintion": "Thank you very much."
+    }, {
+        "id": 23,
+        "term": "Paw Paw",
+        "defintion": "Grandpa"
+    }, {
+        "id": 24,
+        "term": "Po-Boy",
+        "defintion": "A sandwich made on French bread that began as an affordable lunch for poor boys."
+    }, {
+        "id": 25,
+        "term": "Podna",
+        "defintion": "A close friend or partner."
+    }]
+}

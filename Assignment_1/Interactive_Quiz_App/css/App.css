@@ -1,0 +1,180 @@
+body {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    
+    height: 100vh
+}
+
+.App_Container {
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+    
+    border: 2px solid black;
+    height: 95vh;
+    width: 50vw;
+}
+
+/* Header Portion of the Application Below */
+
+.Header_Container {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+    
+    /* border: 2px solid black; */
+    height: 15vh;
+    width: 49vw;
+    margin-top: 1%
+}
+
+.Header_Top_Section {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 49vw
+}
+
+.Header_Title {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+    
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 15vw;
+    margin-left: -2px
+}
+
+.Title_Text {
+    font-size: 22px
+}
+
+.Header_Timer {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+    align-items: center;
+    
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 15vw
+}
+
+.Timer_Text {
+    font-size: 22px
+}
+
+.Header_Middle_Section {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+    
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 49vw
+}
+
+#toggle {
+    margin: 1px
+}
+
+.Header_Bottom_Section {
+    border: 2px solid black;
+    height: 30px;
+    width: 49vw
+}
+
+/* Header Portion of the Application Above */
+
+.Content_Container {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+    
+    background-color: lightblue;
+    /* border: 2px solid black; */
+    height: 77.5vh;
+    width: 49vw;
+    margin-top: 0.5%
+}
+
+.Term_Container {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+    background-color: white;    
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 15vw;
+    margin: 0.5%
+}
+
+.Term_Card {
+    height: 85px;
+    width: 85px;
+    background-color: lightskyblue;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+
+.Definition_Container {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+    
+    background-color: lightcoral;    
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 35vw;
+    margin: 0.5%
+}
+
+.Definition_Card {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+    
+    background-color: lightseagreen;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    height: 14vh;
+    width: 32vw
+}
+
+.Term_Slot {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    
+    height: 92px;
+    width: 92px;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 5%
+}
+
+.Definition_Box {
+    height: 90px;
+    width: 340px;
+    background-color: white;
+    /* border: 2px solid black; */
+    margin: 2%
+}
