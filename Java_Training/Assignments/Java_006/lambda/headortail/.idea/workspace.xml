@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8037c9d7-ee68-47b9-b34a-ce21e06f12e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Array_Swap/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Array_Swap/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Array_Swap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Array_Swap/Array_Swap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Array_Swap/src/com/andrewmontgomery/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Traffic_Light/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Traffic_Light/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Traffic_Light/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Traffic_Light/Traffic_Light.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Traffic_Light/src/com/andrewmontgomery/Lights.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Traffic_Light/src/com/andrewmontgomery/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Traffic_Light/src/com/andrewmontgomery/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basicsorting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basicsorting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadOrTail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadOrTailLambda.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,25 +18,33 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HeadOrTail.java">
+        <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="837">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HeadOrTailLambda.java">
+        <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/HeadTail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="108">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/RandomN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -66,21 +66,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/andrewmontgomery/HeadOrTailLambda.java" />
-        <option value="$PROJECT_DIR$/src/com/andrewmontgomery/Main.java" />
         <option value="$PROJECT_DIR$/src/com/andrewmontgomery/HeadOrTails.java" />
         <option value="$PROJECT_DIR$/src/HeadOrTail.java" />
         <option value="$PROJECT_DIR$/src/HeadOrTailLambda.java" />
+        <option value="$PROJECT_DIR$/src/com/andrewmontgomery/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/andrewmontgomery/HeadTail.java" />
+        <option value="$PROJECT_DIR$/src/com/andrewmontgomery/RandomN.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
@@ -92,6 +87,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,16 +100,22 @@
               <item name="headortail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="headortail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="headortail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="andrewmontgomery" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basicsorting" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -180,8 +182,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,7 +241,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/HeadOrTails.java" />
     <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/HeadOrTailLambda.java" />
     <entry file="file://$PROJECT_DIR$/src/HeadOrTail.java">
@@ -252,6 +254,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/RandomN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/HeadTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrewmontgomery/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
