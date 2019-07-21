@@ -41,15 +41,32 @@ public class Main {
 		- GUIs are meant to respond to events and as such asynchronous.
 		*/
 
-        SwingUtilities.invokeLater(new Runnable() {
+        Runnable my_label = new Runnable() {
             SwingDemo demo;
             JFrame frm;
+
             public void run() {
                 demo = new SwingDemo("Demo 1");
                 frm = demo.getFrame();
                 frm = setFrameStuff(frm, 375, 100, JFrame.EXIT_ON_CLOSE, "My label");
                 frm.setVisible(true);
             }
-        });
+        };
+        SwingUtilities.invokeLater(my_label);
+
+//        SwingUtilities.invokeLater(new Runnable() {
+//            SwingDemo demo;
+//            JFrame frm;
+//            public void run() {
+//                demo = new SwingDemo("Demo 1");
+//                frm = demo.getFrame();
+//                frm = setFrameStuff(frm, 375, 100, JFrame.EXIT_ON_CLOSE, "My label");
+//                frm.setVisible(true);
+//            }
+//        });
+        
+        
+        
+        
     }
 }
