@@ -41,7 +41,7 @@ public class Main {
 
     public static void main(String args[]) {
 
-        SwingUtilities.invokeLater(new Runnable() {
+        Runnable centered_jFrame = new Runnable() {
             SwingDemo demo;
             JFrame frm;
 
@@ -51,7 +51,8 @@ public class Main {
                 frm = setFrameStuff(frm, JFrame.EXIT_ON_CLOSE, "My label in a centered JFrame");
                 frm.setVisible(true);
             }
-        });
+        };
+        SwingUtilities.invokeLater(centered_jFrame);
     }
 
 //    public static void main(String args[]) {
