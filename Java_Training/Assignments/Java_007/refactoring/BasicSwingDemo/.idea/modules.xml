@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/stringarrayutilities_refactored.iml" filepath="$PROJECT_DIR$/stringarrayutilities_refactored.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicSwingDemo.iml" filepath="$PROJECT_DIR$/BasicSwingDemo.iml" />
     </modules>
   </component>
 </project>
