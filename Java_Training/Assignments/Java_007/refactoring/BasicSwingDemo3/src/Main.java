@@ -21,14 +21,14 @@ public class Main {
         }
     }
 
-    public static JFrame setFrameStuff(JFrame frm, int onExit, int width, int height) {
+    static SetFrame setFrameStuff = (frm, onExit, width, height) -> {
         // this will center and size the JFrame on screen
         // it will have a height and width of half the screen
         centerAndSizeJFrameOnScreen(frm, 400, 400);
         frm.setDefaultCloseOperation(onExit);
         setLabelsToFrame(frm);
         return frm;
-    }
+    };
 
     public static void main(String args[]) {
 
@@ -39,25 +39,11 @@ public class Main {
             public void run() {
                 demo = new SwingDemo("Centered JFrame 400 by 200 with 5 labels");
                 frm = demo.getFrame();
-                frm = setFrameStuff(frm, JFrame.EXIT_ON_CLOSE, 400, 200);
+                frm = setFrameStuff.setFrameStuff(frm, JFrame.EXIT_ON_CLOSE, 400, 200);
                 frm.setVisible(true);
             }
         };
         SwingUtilities.invokeLater(doRun);
     }
 
-//    public static void main(String args[]) {
-//
-//        SwingUtilities.invokeLater(new Runnable() {
-//            SwingDemo demo;
-//            JFrame frm;
-//
-//            public void run() {
-//                demo = new SwingDemo("Centered JFrame 400 by 200 with 5 labels");
-//                frm = demo.getFrame();
-//                frm = setFrameStuff(frm, JFrame.EXIT_ON_CLOSE, 400, 200);
-//                frm.setVisible(true);
-//            }
-//        });
-//    }
 }
