@@ -29,7 +29,7 @@ public class Main {
         frm.setLocationRelativeTo(null);
     }
 
-    public static JFrame setFrameStuff(JFrame frm, int onExit, String label) {
+    static SetFrame setFrameStuff = (frm, onExit, label) -> {
         // this will center and size the JFrame on screen
         // it will have a height and width of half the screen
         centerAndSizeJFrameOnScreen(frm);
@@ -37,7 +37,7 @@ public class Main {
         JLabel lab = new JLabel(label);
         frm.add(lab);
         return frm;
-    }
+    };
 
     public static void main(String args[]) {
 
@@ -48,7 +48,7 @@ public class Main {
             public void run() {
                 demo = new SwingDemo("Centered JFrame");
                 frm = demo.getFrame();
-                frm = setFrameStuff(frm, JFrame.EXIT_ON_CLOSE, "My label in a centered JFrame");
+                frm = setFrameStuff.setFrameStuff(frm, JFrame.EXIT_ON_CLOSE, "My label in a centered JFrame");
                 frm.setVisible(true);
             }
         };
