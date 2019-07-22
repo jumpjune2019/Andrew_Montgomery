@@ -45,5 +45,5 @@ public class Main {
         };
         SwingUtilities.invokeLater(doRun);
     }
-    
+
 }
