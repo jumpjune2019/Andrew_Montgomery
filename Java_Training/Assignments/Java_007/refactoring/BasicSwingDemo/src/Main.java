@@ -3,7 +3,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.*;
 public class Main {
 
-    public static JFrame setFrameStuff(JFrame frm, int width, int height, int onExit, String label) {
+    static SetFrame setFrameStuff = (frm, width, height, onExit, label) -> {
         // Give the frame an initial size.
         frm.setSize(width, height);
         // Terminate the program when the user closes the application.
@@ -18,7 +18,7 @@ public class Main {
         // Add the label to the content pane.
         frm.add(lab);
         return frm;
-    }
+    };
 
     public static void main(String args[]) {
 	
@@ -48,11 +48,12 @@ public class Main {
             public void run() {
                 demo = new SwingDemo("Demo 1");
                 frm = demo.getFrame();
-                frm = setFrameStuff(frm, 375, 100, JFrame.EXIT_ON_CLOSE, "My label");
+                frm = setFrameStuff.setFrameStuff(frm, 375, 100, JFrame.EXIT_ON_CLOSE, "My label");
                 frm.setVisible(true);
             }
         };
         SwingUtilities.invokeLater(my_label);
+
 
 //        SwingUtilities.invokeLater(new Runnable() {
 //            SwingDemo demo;
@@ -64,9 +65,5 @@ public class Main {
 //                frm.setVisible(true);
 //            }
 //        });
-        
-        
-        
-        
     }
 }
