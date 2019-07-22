@@ -45,19 +45,5 @@ public class Main {
         };
         SwingUtilities.invokeLater(doRun);
     }
-
-//    public static void main(String args[]) {
-//
-//        SwingUtilities.invokeLater(new Runnable() {
-//            SwingDemo demo;
-//            JFrame frm;
-//
-//            public void run() {
-//                demo = new SwingDemo("Centered JFrame 400 by 200 with 5 labels");
-//                frm = demo.getFrame();
-//                frm = setFrameStuff(frm, JFrame.EXIT_ON_CLOSE, 400, 200);
-//                frm.setVisible(true);
-//            }
-//        });
-//    }
+    
 }
