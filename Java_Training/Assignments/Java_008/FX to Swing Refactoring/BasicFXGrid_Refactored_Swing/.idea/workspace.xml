@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee522670-0727-4b15-bf73-06c5dd942ceb" name="Default Changelist" comment="" />
+    <list default="true" id="ee522670-0727-4b15-bf73-06c5dd942ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java_007/gameofdice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java_007/gameofdice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java_007/headortail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java_007/headortail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java_007/headortail/out/production/headortail/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java_007/headortail/out/production/headortail/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java_007/headortail/out/production/headortail/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java_007/headortail/out/production/headortail/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java_007/refactoring/BasicSwingJCheckBoxDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java_007/refactoring/BasicSwingJCheckBoxDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java_007/refactoring/BasicSwingJCheckBoxDemo/src/CBDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java_007/refactoring/BasicSwingJCheckBoxDemo/src/CBDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java_007/refactoring/BasicSwingJTextFieldDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java_007/refactoring/BasicSwingJTextFieldDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicFXCheckBox_Refactored_Swing/out/production/BasicFXCheckBox_Refactored_Swing/CBDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicFXCheckBox_Refactored_Swing/out/production/BasicFXCheckBox_Refactored_Swing/CBDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicFXCheckBox_Refactored_Swing/out/production/BasicFXCheckBox_Refactored_Swing/CBDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicFXCheckBox_Refactored_Swing/out/production/BasicFXCheckBox_Refactored_Swing/CBDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicJavaFXRadioButton_Refactored_Swing/out/production/BasicJavaFXRadioButton_Refactored_Swing/SwingControlDemo.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GridLayoutDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="459">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -35,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -43,15 +64,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="524" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,12 +87,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Training Files/Java - Page 008 - Training Files/BasicJavaFXDemo2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -115,9 +138,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12013423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -148,8 +170,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/GridLayoutDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="459">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
