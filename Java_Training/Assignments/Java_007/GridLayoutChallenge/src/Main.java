@@ -6,7 +6,7 @@ public class Main {
         Runnable doRun = new Runnable() {
             @Override
             public void run() {
-                new myJFrame(" The Matrix Challenge");
+                new myJFrameStuff(" The Matrix Challenge");
             }
         };
         SwingUtilities.invokeLater(doRun);

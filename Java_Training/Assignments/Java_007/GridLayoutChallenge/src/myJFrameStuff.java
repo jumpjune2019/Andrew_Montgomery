@@ -3,14 +3,14 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-public class myJFrame implements ActionListener {
+public class myJFrameStuff implements ActionListener {
     JPanel centerPanel;
     JLabel bottomLabel,  topLabel;
 
     int centerPanelRows,centerPanelColumns;
 
     //constructor
-    myJFrame(String title) {
+    myJFrameStuff(String title) {
         randomRowGenerator();
         randomColumnGenerator();
         //Create a new JFrame container.
